@@ -1,0 +1,75 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/hometab"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_weight="1"
+        android:background="@drawable/backgound_states"
+        android:clickable="true"
+        android:drawableTop="@drawable/home"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/join_homeeee"
+        android:textSize="10dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/spoontab"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_weight="1"
+        android:background="@drawable/backgound_states"
+        android:clickable="true"
+        android:drawableTop="@drawable/spoon"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/join_shop"
+        android:textSize="10dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/carttab"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_weight="1"
+        android:background="@drawable/backgound_states"
+        android:clickable="true"
+        android:drawableTop="@drawable/home_icon"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/join_carttt"
+        android:textSize="10dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/trucktab"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_weight="1"
+        android:background="@drawable/backgound_states"
+        android:clickable="true"
+        android:drawableTop="@drawable/truck_icon"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/join_Delivery"
+        android:textSize="10dip"
+        android:textStyle="bold" />
+
+    
+ 
+     <TextView
+        android:id="@+id/icontab"
+        android:layout_width="72dip"
+        android:layout_height="72dip"
+        android:layout_weight="1"
+        android:background="@drawable/backgound_states"
+        android:clickable="true"
+        android:drawableTop="@drawable/icon"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="@string/join_Moreee"
+        android:textSize="10dip"
+        android:textStyle="bold" />
+ 
+</merge>

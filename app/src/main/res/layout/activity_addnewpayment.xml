@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:background="@color/black">
+        <TextView 
+            android:id="@+id/imv_Step3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignParentLeft="true"
+           android:text="@string/join_step3"
+           android:textColor="@color/white"
+           android:gravity="center"
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           android:textStyle="bold"
+            android:background="@drawable/login_small_button_bg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_addadr"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </RelativeLayout>
+    <TextView
+            android:id="@+id/tvEstimate"
+            android:layout_width="match_parent"
+            android:background="@color/dark_grayrect"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/join_estimate"
+            android:textColor="@color/white" />
+    
+    <RelativeLayout 
+        android:id="@+id/rr_Addnewpay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:text="@string/join_addcrdc"
+            android:layout_alignParentLeft="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            />
+        <ImageView 
+            android:id="@+id/imv_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/orange_arrow"
+            
+            android:layout_margin="10dp"
+           android:layout_alignParentRight="true"
+            android:contentDescription="@string/app_name"/>
+    </RelativeLayout>
+    
+
+</LinearLayout>

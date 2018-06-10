@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/llGrospyHeader"
+      android:layout_height="52dp"
+      android:layout_width="match_parent"
+      android:orientation="horizontal"
+      android:background="@color/black">
+      
+       <ImageView 
+        android:id="@+id/ivshop_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@+id/Groceryitembg"
+        android:background="@drawable/shop_btn"/>
+        
+      <TextView
+        android:id="@+id/ivLogoLogin"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/join_fruit"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white"/>
+
+      
+        
+    </RelativeLayout>
+    
+    
+    <LinearLayout
+        android:id="@+id/llSearchHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        
+        android:background="@drawable/search_bg"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_field"
+            android:drawableLeft="@drawable/search_icon"
+            android:gravity="center_vertical"
+            android:hint="@string/join_search"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="8"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:inputType="text"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ImageView
+            android:id="@+id/ivbtnScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/scan_button"
+            android:contentDescription="@+id/Groceryitembg" />
+    </LinearLayout>
+<ListView
+        android:id="@+id/listsubcatagory"
+        android:layout_width="match_parent"
+        android:cacheColorHint="@color/transparent"
+        android:layout_height="match_parent" >
+    </ListView>
+</LinearLayout>

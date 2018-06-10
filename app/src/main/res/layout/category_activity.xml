@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:pax="http://schemas.android.com/apk/res/com.alobha.grocery"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+    
+    
+    
+    <RelativeLayout
+        android:id="@+id/llGrospyHeader"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/black"
+        android:layout_centerHorizontal="true" >
+    
+      <ImageView
+            android:id="@+id/ivLogoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/active_star"
+             android:layout_centerHorizontal="true"
+            android:contentDescription="@+id/Groceryitembg" />
+    </RelativeLayout>
+     <LinearLayout
+        android:id="@+id/llSearchHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/llGrospyHeader"
+        android:background="@drawable/search_bg"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_field"
+            android:drawableLeft="@drawable/search_icon"
+            android:gravity="center_vertical"
+            android:hint="@string/seach"
+            android:layout_marginRight="10dp"
+            android:layout_weight="8"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:inputType="text"
+            android:layout_marginLeft="10dp"
+            android:maxLength="50"
+            android:singleLine="true"
+           android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ImageView
+            android:id="@+id/ivbtnScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/scan_button"
+            android:contentDescription="@+id/Groceryitembg" />
+    </LinearLayout>
+    
+      <ImageView
+        android:id="@+id/ivadvrt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/action_settings"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/llSearchHeader"
+        android:src="@drawable/advrt2" />
+      
+      
+      <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+       
+        android:layout_below="@+id/ivadvrt2"
+        android:layout_height="wrap_content" >
+    </ListView>
+    
+      
+       <RelativeLayout
+         android:id="@+id/RelFooter"  
+	    android:layout_width="match_parent"
+	    android:layout_below="@+id/listView1"
+	    android:layout_height="match_parent"> 
+       <com.alobha.grocery.tab.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            pax:tab_id="icontab"/>
+       </RelativeLayout>
+      
+    
+</RelativeLayout>
+   
+      
+   
+
+   
+   
+
+    

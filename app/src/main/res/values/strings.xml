@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="join_shop">Shop</string>
+    <string name="join_carttt">Cart</string>
+	<string name="join_homeeee">Home</string>
+	<string name="join_Delivery">Delivery</string>
+		<string name="join_Moreee">More</string>
+	<string name="join_ordersss">Once you have completed order,you can easily shop from your previous Orders, listed here.</string>
+	<string name="join_loginin">Login in to your Account</string>
+	<string name="join_cstep3">Checkout: Step 3</string>
+    <string name="app_name">Grocery</string>
+    <string name="join_shoppingcartempty">Your shopping cart is empty.</string>
+    <string name="join_shopclick">Click Shop below to find foods you ll love.</string>
+    <string name="join_appchek1">Checkout: Step1</string>
+    <string name="join_pickupm">PICK UP</string>
+    <string name="join_minimorder">(minimum order $30):</string>
+    <string name="join_plschosedeliver">Please choose a delivery address:</string>
+    <string name="join_longisland">Long Island</string>
+    <string name="join_bordenave">23-30 Borden Ave\n Long Island City, NY 11101</string>
+    <string name="join_dahi">Mama Francesca Grated Pecorino Romano Cheese, Imported</string>
+    <string name="join_dahidoz">5oz</string>
+    <string name="join_deliverypass">Delivery Pass Terms And Conditions</string>
+    <string name="join_dahicost">$3.99/ea</string>
+    <string name="join_step2">Step 2</string>
+    <string name="join_remmemberyouwill">Remember, you will not be charged until we have prepared your order and it is ready for delivery.</string>
+    <string name="join_estement">Estimated Total: $70.66</string>
+    <string name="join_plschoosepaymt">Please choose payment option</string>
+    <string name="join_step4">Step 4</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="email">Email</string>
+    <string name="join_custagree">Customer Agreement</string>
+    <string name="join_savaddr">Save Address Info</string>
+    <string name="join_plsmakesure">(please make sure doorman will accept packages)</string>
+    <string name="join_leavedoorman">Leave with doorman</string>
+    <string name="join_specialdeliver">Special Delivery Instruction</string>
+    
+    <string name="join_phone">Phone</string>
+    <string name="join_yes">Yes</string>
+    <string name="join_no">No</string>
+    <string name="join_step3">Step 3</string>
+    <string name="join_addcrdc">Add a credit card</string>
+    <string name="join_addadr">Add New Payment</string>
+    <string name="join_cardtyp">Card Type</string>
+    <string name="join_carno">Card Number</string>
+    <string name="join_zip">Zip</string>
+    <string name="join_registering">By registering, you agree to the </string>
+    <string name="join_termof_use">Terms of Use</string>
+    <string name="join_savpay">Save Payment Info</string>
+    <string name="join_apt">Apt.#</string>
+    <string name="join_expire">Expires</string>
+    <string name="join_amex">Amex</string>
+    <string name="join_plsentr">Please enter credit card details.</string>
+    <string name="join_compnay">Compnay</string>
+    <string name="join_street">Street</string>
+    <string name="join_back">Back</string>
+    <string name="join_apex">Apex</string>
+    <string name="join_creditcard">Credit Card</string>
+    <string name="join_mastercard">Mastercard</string>
+    <string name="join_visa">Visa</string>
+    <string name="join_city">City</string>
+    <string name="join_stat">State</string>
+    <string name="join_discover">Discovered</string>
+    <string name="join_newyrk">New York</string>
+    <string name="join_plsentrnewaddr">Please enter a new address:</string>
+    <string name="join_step">Step 1</string>
+    <string name="join_addnewaddr">Add New Address</string>
+    <string name="join_homdel">Home Delivery</string>
+    <string name="join_corporatdel">Corporate Delivery</string>
+    <string name="join_deliverytime">Delivery Time Status</string>
+    <string name="join_orderdetails">Order # not specified</string>
+    <string name="join_generallyrepons">We generally response within 1 to 3 hours during our business day.</string>
+    <string name="join_thanks">Thank you for you sending us your message:</string>
+    <string name="join_ok">Ok</string>
+    <string name="join_select">Select Subject</string>
+    <string name="join_writemsg">Write Your Message.....</string>
+    <string name="join_requi">REQUIRED</string>
+    <string name="join_sendSms2">Send Message </string>
+    <string name="join_optional">OPTIONAL</string>
+    <string name="join_sendmesg">Send Us a Message</string>
+    <string name="join_chef">Chef s Table Only</string>
+    <string name="mpaersent">Order #</string>
+    <string name="join_chef1">Alcohol Restricated</string>
+    <string name="join_chef2">Eco-Friendly Timeslot</string>
+    <string name="join_chef3">Peak Hours Order Minimum</string>
+    <string name="join_chef4">Reserved Timeslot</string>
+    <string name="join_chef5">Preselected Timeslot</string>
+    <string name="join_chef6">Delivery Slot Full</string>
+    <string name="join_mobileapp">Mobile Apps</string>
+    <string name="join_cont">Contact</string>
+    <string name="join_freshdirectcust">FreshDirect Customer Service is standing by to answer your questions, seven days a week. We generally respond within 1 to 3 hours during our business day.</string>
+    <string name="join_pleaseinclu">Please include as much specific information as possible to ensure a prompt response to your inquiry.</string>
+    <string name="join_delivert">Delivery times available at checkout only, to this address:</string>
+    <string name="join_reserv">Reserve Delivery</string>
+    <string name="join_subject">Subject</string>
+    <string name="join_nowor">No Worries.</string>
+    <string name="join_wiwill">We ll email you a link to retrive a password.</string>
+    <string name="join_fpass">Forgot Password?</string>
+    <string name="join_sendr">Send Request</string>
+    <string name="join_priva">Privacy Policy</string>
+    <string name="join_more">More</string>
+    <string name="join_info">Grocery Customer Service is standing by to answer your questions, seven days a week. We generally respond within 1 to 3 hours our during business day.</string>
+    <string name="join_signup">Sign up</string>
+    <string name="join_firstname">First Name</string>
+    <string name="join_donth">You Dont Have Any Previous Orders</string>
+    <string name="join_requite">Required</string>
+    <string name="join_callus">Call Us: 1-212-796-8002</string>
+    <string name="join_montosun">Monday Through Sunday</string>
+    <string name="join_times">6:AM to 12:30Am</string>
+    <string name="join_custser">Customer Service Hours:</string>
+    <string name="join_sendsms">Send Us a Message</string>
+    <string name="join_lastname">Last Name</string>
+    <string name="join_addcar">Add to cart</string>
+    <string name="join_newgro">New to Grocery?</string>
+    <string name="join_email">Email</string>
+    <string name="join_logout">Logout</string>
+    <string name="join_help">Help</string>
+    <string name="join_about">About</string>
+    <string name="join_order">Your Orders</string>
+    <string name="join_confirm">Confirm Email</string>
+    <string name="join_pass">Password</string>
+    <string name="join_ans">Answer</string>
+    <string name="join_terms">By registering, you agree to the </string>
+    <string name="join_term">Terms of Use</string>
+    <string name="join_startshopi">Start Shopping</string>
+    <string name="join_what">What is your town of birth or mother s maiden name?</string>
+    <string name="join_sques">Security Question</string>
+    <string name="join_notify">Notify Me</string>
+    <string name="join_frui">Fruis</string>
+    <string name="join_search">Search</string>
+    <string name="password">Password</string>
+    <string name="join_youcanplace">You can place your order for pickup at our Long Island </string>
+    <string name="forgot_password"> Forgot your password?</string>
+    <string name="join_startshop">Start Shopping For Pickup</string>
+    <string name="join_cityfaci">City facility (Just minutes from Manhatan.)</string>
+    <string name="join_homedeli">Home Delivery</string>
+    <string name="join_addresstype">Address Type</string>
+    <string name="new_to_grocery">New to grocery</string>
+    <string name="first_order">YOUR FIRST 2 ORDERS</string>
+    <string name="enter_code">Enter Promo Code :</string>
+    <string name="buy_20">BUY 20</string>
+    <string name="zipcode">Zip Code</string>
+    <string name="checkout">at checkout</string>
+    <string name="long_island">Long Island City Picup</string>
+    <string name="notify_email">Notify Me Vai Email</string>
+    <string name="email_me">Email me when you begin delivery to my area.</string>
+    <string name="zipcodenotify_txt">Sorry, we curruntly do not deliver to your neighboiurhood.</string>
+    <string name="enterzipcodetxt">Enter zip code to see if we deliver to your neighbourhood.</string>
+    <string name="sear">Search</string>
+    <string name="welcome">Welcome back, Shalu!</string>
+    <string name="browse">Browse Our Store</string>
+    <string name="favrote">FAVORITES</string>
+    <string name="grocery">Grocery Favorites</string>
+    <string name="organic">Organic Hass\nAvocados\nReady-to-Eat</string>
+    <string name="asparagus">Asparagus</string>
+    <string name="gro_roast">Grocery\nRoast Beef</string>
+    <string name="pre_pics">President’s Pics</string>
+    <string name="dollar1">$5.99/ea</string>
+    <string name="dollar2">$4.49/ea</string>
+    <string name="dollar3">$12.99/lb</string>
+     <string name="join_wehavepart">we ve part with some of  your fovorties brands to
+ bring your even more great savinf across the store</string>
+    
+    <string name="join_saveo">SAVE BIG ON TOP PRODUCTS NEW * NEW EVERY WEEK</string>
+	<string name="join_president">PRESIDENT S PICK</string>
+	<string name="join_faq">FAQ &#38; Support</string>
+	<string name="join_saveon">save up to 505 on some of our best product</string>
+    <string-array name="ItemsImages">
+        <item>@drawable/home_img3</item>
+        <item>@drawable/home_img2</item>
+        <item>@drawable/home_img1</item>
+    </string-array>
+    <string-array name="about">
+        <item>App Version</item>
+        <item >V2.4</item>
+        <item>Android Generation</item>
+        <item> condor_umtsds</item>
+        <item>Android OS</item>
+        <item>4.4.4</item>
+        <item>Unit ID</item>
+        <item>35930159428093</item>
+    </string-array>
+    <string-array name="subcrd">
+        <item>Apex</item>
+        <item>Mastercard</item>
+        <item>Visa</item>
+        <item>Discovered</item>
+    </string-array>
+    <string-array name="faq">
+        <item>Mobile Apps</item>
+        <item>What We Do</item>
+        <item>Security and Privacy</item>
+        <item>Shopping</item>
+        <item>Payment</item>
+        <item>Home Delivery</item>
+        <item>FDCoupons</item>
+        <item>DeliveryPass</item>
+        <item>Chef s Table</item>
+        <item>SMS Text-Message</item>
+        <item>Sustainable Seafood</item>
+        <item>Business &#38; Corporate Customers</item>
+    </string-array>
+    <string-array name="subject">
+        <item>Billing</item>
+        <item>Corporate/Commercial\nServices</item>
+		<item>Delivery Areas</item>
+		<item>Delivery Feedback</item>
+		<item>Delivery Time Status</item>
+		<item>FreshDirect IPhone app</item>
+		<item>General Feedback</item>
+		<item>Gift Cards</item>
+		<item>Problem with an order I\ received</item>
+		<item>Product Request</item>
+		<item>Promotion</item>
+		<item>Web Site/Technical</item>
+		</string-array>
+    <string-array name="mobileapp">
+        <item>How is Shopping with a FreshDirect App different from shopping at the FreshDirect Website</item>
+        <item>How do I use FeshDirect Shopping Lists</item>
+        <item>How do I use FeshDirect Shopping Lists</item>
+        <item>How do I use FeshDirect Shopping Lists</item>
+        </string-array>
+    <string-array name="help">
+        
+       <item>FAQ &#38; Support</item>
+       <item>Freshness Guarantee</item>
+       <item>Customer Agreement</item>
+       <item>Privacy Policy</item> 
+    </string-array>
+    <string-array name="Items">
+        <item>Organic Hass\nAvocados\nReady-to-Eat</item>
+        <item>Asparagus</item>
+        <item>Grocery\nRoast Beef</item>
+        <item>Organic Hass\nAvocados\nReady-to-Eat</item>
+        <item>Asparagus</item>
+        <item>Grocery\nRoast Beef</item>
+        <item>Asparagus</item>
+        <item>Grocery\nRoast Beef</item>
+    </string-array>
+    <string-array name="Deals">
+        <item>President’s Picks</item>
+        <item>Great Right Now Procedure</item>
+        <item>Best Meat Deals</item>
+        <item>Dairy Deals</item>
+        <item>Grocery Deals</item>
+        <item>Frozen Deals</item>
+    </string-array>
+
+    <string name="far">Freshness Guarantee</string>
+    <string name="cagreemet">Customer Agreement</string>
+    <string name="ppolicy" />
+    <string name="help">Help</string>
+    <string name="yourorders">Your Orders</string>
+    <string name="estimate">Estimated Total: $29.99</string>
+    <string name="stp1">Step 1</string>
+    <string name="stp2">Step 2</string>
+    <string name="stp3">Step 3</string>
+    <string name="stp4">Step 4</string>
+    <string name="plschosdelvery">Please Choose a delivery address:</string>
+    <string name="pick">Pick Up</string>
+    <string name="minmum">(minimum order $30):</string>
+    <string name="grocerpic">Grocery Pickup</string>
+    <string name="subgrocerpick">23 30 Borden Ave\nLong Island City, NY 11101</string>
+    <string name="addaddr">Add a new delivery address</string>
+    <string name="addnewaddr">Add New Address</string>
+    <string name="plsenternewaddr">Please enter a new address:</string>
+    <string name="frt">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="addtype">Address Type</string>
+    <string name="cmpny">Company</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="stat">State</string>
+    <string name="req">Required</string>
+    <string name="favorities">FAVORITIES</string>
+    <string name="hin">Apt.#</string>
+    <string name="search">     Search</string>
+    <string name="grocerfavorites">Grocery Favorities</string>
+    <string name="whats">WHATS GOOD</string>
+    <string name="presentds">Presidents Picks</string>
+    <string name="greenasp">Green\nAsparagus in</string>
+    <string name="oven">Oven-Ready\nButter</string>
+    <string name="asparagu">Asparagus</string>
+    <string name="pricee">$5.99/ea</string>
+    <string name="priceee">$4.99/ea</string>
+    <string name="join_cart">Cart</string>
+    <string name="join_estimate">Estimated Total: $29.99</string>
+    <string name="join_fruit">FRUIT</string>
+    <string name="join_red">Red Jacket Orchards Joes "Fruitful"\nCSA with Fruit, Cheese and Juice\n$29.99</string>
+    <string name="join_subtotal">GROCERY Estimated Subtotal:</string>
+    <string name="join_promo">Promotional Code:</string>
+    <string name="join_total">Total Tax:</string>
+    <string name="join_Delivercha">Delivery Charge</string>
+    <string name="join_cost">$29.99</string>
+    <string name="join_cost2">$0.00</string>
+    <string name="join_estimated">Estimated Total:</string>
+    <string name="join_estsub">Subtotal:</string>
+    <string name="join_one">1</string>
+    <string name="join_taxitem">Taxable Item</string>
+    <string name="join_specialpri">Special Price</string>
+    <string name="join_addcart">Added to Cart</string>
+    <string name="join_justadd">You have just added to your cart:</string>
+    <string name="join_orch">Red Jacket Orchards Joe......</string>
+    <string name="just_est">EST:</string>
+    <string name="join_subb">Sutotal:</string>
+    <string name="join_like">You Might Also Like</string>
+    <string name="join_asparagus">Asparagus</string>
+    <string name="join_costt">$4.49/ea</string>
+    <string name="join_costp">$5.99/ea</string>
+    <string name="join_coss">$12.99/lb</string>
+    <string name="join_groroabee">   Grocery\n Roast Beef</string>
+    <string name="join_organichass">Organic Hass\nAvocados,\nReady-to-Eat</string>
+    <string name="Red_Jacket_Orchard">Red Jacket Orchard</string>
+    <string name="CSA_With_Fruit_Chees_nd_fruit">CSA With Fruit Chees nd fruit</string>
+    <string name="price">$29.99/ea</string>
+
+    <string-array name="AddcartItems">
+        <item>Grocery\nGreen\nAsparagus in\nButter</item>
+        <item>Grocery\Oven-Ready</item>
+        <item>Asparagus</item>
+    </string-array>
+
+    <string name="great">Great Right Now Produce</string>
+    <string name="peak">PEAK SEASON PRODUCE</string>
+    <string name="our">Our produce managers review our entire stock\n of produce on a daliy basis, recommending\ndelicious fruit and vegetables that will be great\nfor delivery tomorrow.</string>
+    <string name="lemon">Lemon Family Pack</string>
+    <string name="five">5 –ct. (lb bag))</string>
+    <string name="dolar">Dolar/ea</string>
+    <string name="best">Best Meats Deals</string>
+    <string name="we">We’re making big cuts.Now it’seasier\nthan ever home the bacon</string>
+    <string name="featurd">FEASTUIRED MEAT DEALS</string>
+
+    <string-array name="Items1">
+        <item>Lemon Family Pack</item>
+        <item>Sandstone Sugar Kiss Melton</item>
+        <item>Golden Pineapple</item>
+        <item>Sandstone Sugar Kiss Galia Melton</item>
+        <item>Lemon Family Pack</item>
+        <item>Sandstone Sugar Kiss Melton</item>
+        <item>Golden Pineapple</item>
+        <item>Sandstone Sugar Kiss Galia Melton</item>
+    </string-array>
+	<string name="join_checkzip">Check Zip Code</string>	
+    <string name="groceryfaverties">Grocery Faverties</string>
+    <string name="seach">Search</string>
+    <string name="todo">TODO</string>
+    <string name="rahdhey_tero_hai_pyara">Rahdhey tero hai pyara</string>
+    <string name="productdetail">Product Detail</string>
+    <string name="red_jacket_orchard">Red Jacket orchards joe&amp;apos;s\nfruittuleCSA with Fruit,cheese\nand juice</string>
+    <string name="ouality">QUANTITY</string>
+    <string name="one">1</string>
+    <string name="prices">prices</string>
+    <string name="join_twonin">2999ea</string>
+    <string name="join_tow">2999</string>
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <string name="CheckOutsteptwo">Checkout: Step 2</string>
+     <string name="estimeted">Estimated Total: $70.06</string>
+     <string name="step1">Step1</string>
+     <string name="step2">Step2</string>
+     <string name="step3">Step3</string>
+     <string name="step4">Step4</string>
+     <string name="pleasechooseadeliveryadd">Please Choose a date and\n time for your delivery.</string>
+     <string name="deliveryfees">Delivery Fee $0.00</string>
+     <string name="rermembethe">Remember the firstslot is tomorrow.</string>
+     <string name="para">We&#8217;ve held asidespace for you at our most popular times.Plus, if you find there are no remrening Chef&#8217;s Table timesslot available for next day delivery, you can callus until 9PM(6PM Friday and Satuardays)and our dedicated service specialist will work to open space for you.</string>
+     <string name="tapatimesslot">Tap atimes slot to reserve it.</string>
+     <string name="chefstableonly">Chefs Table Only</string>
+     <string name="reservetimeslot">Reserved Timeslot.</string>
+     <string name="alcohol">Alcohol Restricted</string>
+     <string name="ecofriendly">Eco-Friendly Timeslot</string>
+     <string name="peakourorder">Peak Hour Order Minimum</string>
+     <string name="preselectedtimeslot">Preselected Timeslot</string>
+     <string name="deliveryd">Delivery slot full</string>
+      <string name="deliveryslots">DELIVERY SLOTS:</string>
+       <string name="f">F11/7</string>
+        <string name="orderby">ORDER BY 11 pm</string>
+        <string name="ninepm">1 pm-9 pm</string>
+        <string name="eight">S11/8</string>
+        <string name="nine">S11/9</string>
+        <string name="ten">M11/10</string>
+        <string name="eleven">T11/11</string>
+        <string name="paratwo">New York state law prohibits the sale of beer before 8 AM and wine before noon on sunday. If you select a Sunday delivery slot that begins before these times, any beer and/or wine will be removed from your cart.</string>
+		  <string name="cart">Cart</string>	
+		   <string name="estimated">Estimated Total:$39.90</string>
+		   <string name="diary">DAIRY</string>
+		   <string name="mamafrancasca">Mama Francesca Grated Pecorino\nRomano cheese,Imported</string>
+		   <string name="five1">50z</string>
+		   <string name="thirtynine">$39.90</string>
+		   <string name="freshdirect">FRESHDIRECT</string>
+		   <string name="Promotionalcode">Promotional Code</string>
+		   <string name="subtotal">Subtotal:</string>
+		   <string name="totaltax">Total Tax:</string>
+		   <string name="deliverycharge">Delivery Charge</string>
+		   <string name="zero">$0.00</string>
+		   <string name="estimatedsub">Estimated Subtotal</string>
+		   <string name="estimatedtotal">Estimated Total</string>
+		   <string name="t">T</string>
+		   <string name="s">S</string>
+		   <string name="d">D</string>
+		   <string name="taxableitem">Taxable Item</string>
+		   <string name="specialprice">Special Price</string>
+		   <string name="bottledeposite">Bottle Deposite &#38; Fee</string>
+		   <string name="findoutmore">* Find out more about estimated prices, taxes\ndeposits, fees and other aspects of our customer\nagreement.</string>	
+   			<string name="delete">Delete</string>
+   			<string name="deleteall">Delete All</string>
+
+</resources>

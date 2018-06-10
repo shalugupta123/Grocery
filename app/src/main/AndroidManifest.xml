@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alobha.grocery"
+    android:installLocation="preferExternal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.alobha.grocery.more.MoreActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        
+            
+            
+            
+        
+         <!--  <activity
+            android:name="com.alobha.grocery.more.MoreActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" > -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity
+            android:name="com.alobha.grocery.subcreditcardy.SubcreditCardActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> -->
+        <activity
+            android:name="com.alobha.grocery.addtocart.CartScreensActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+         
+        
+        <activity
+            android:name="com.alobha.grocery.checkoutstep.CheckoutStepThreeActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        
+         <activity
+            android:name="com.alobha.grocery.checkoutstep.CheckOutStepTwoActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        
+        
+        <activity
+            android:name="com.alobha.grocery.addnewaddress.YesNoActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.addnewaddress.AddNewAddressActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.addtocart.CartEditDoneActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.checkoutstep.ContactgetHelpActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+       
+        <activity
+            android:name="com.alobha.grocery.checkoutstep.CheckOutStepOneActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.customermnt.CustomerAgrmentActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <!-- <activity
+            android:name="com.alobha.grocery.addtocart.CartScreensActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> -->
+        <activity
+            android:name="com.alobha.grocery.helpdone.HelpDoneActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.checkoutstep.SubCreditActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.checkoutstep.WebViewStepActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.checkoutstep.CreditCardActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.checkoutstep.AddNewPaymentActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        
+       
+        <activity
+            android:name="com.alobha.grocery.zip.HomeCorportaDeliveryActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.faqsupport.FaqSupportActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.mobleapp.MobileAppActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.sendusamesage.SelectSubjectActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        
+        <activity
+            android:name="com.alobha.grocery.mobleapp.ThanksActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+         <activity
+            android:name="com.alobha.grocery.mobleapp.MobileAppUnderActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.sendusamesage.SendUsaMessageActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+       <activity
+            android:name="com.alobha.grocery.auth.LoginActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.zip.CheckZipCodeActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+        <activity
+            android:name="com.alobha.grocery.zip.ZipCodeNotifyActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+       
+       <activity
+            android:name="com.alobha.grocery.more.AboutActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+            </activity>
+            <activity
+            android:name="com.alobha.grocery.more.ContactUsActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+            </activity>
+            <!-- <activity
+            com.alobha.grocery.auth.SplashActivity
+            android:name="com.alobha.grocery.more.MoreActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+            </activity> -->
+            
+            <activity
+            android:name="com.alobha.grocery.sendusamessage.SendUsaMessageActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+            </activity>
+            <activity
+            android:name="com.alobha.grocery.more.YourOrderActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+            </activity>
+            <!-- <activity
+            android:name="com.alobha.grocery.more.HelpActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+            </activity> -->
+         <activity
+            android:name="com.alobha.grocery.forgetpassword.ForgotPasswordActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+            </activity>
+        <activity
+            android:name="com.alobha.grocery.signup.SignupActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+            </activity>
+           <activity
+            android:name="com.alobha.grocery.dashboard.HomescreenActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+          <activity
+            android:name="com.alobha.grocery.cateories.CategoryActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity>
+          <activity
+            android:name="com.alobha.grocery.cateories.SubcategoryActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> 
+             <activity
+            android:name="com.alobha.grocery.product.ProductActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> 
+        
+                <activity
+            android:name="com.alobha.grocery.product.ProductOneActivtiy"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> 
+        
+               <activity
+            android:name="com.alobha.grocery.product.ProductDetailActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> 
+        
+                   <activity
+            android:name="com.alobha.grocery.projectdescription.ProjectDescriptionActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> 
+         
+            <activity
+            android:name="com.alobha.grocery.addtocart.AddToCartActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> 
+        
+                <activity
+            android:name="com.alobha.grocery.faverties.FavertiesActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> 
+        
+                
+                 <activity
+            android:name="com.alobha.grocery.peresident.PresidentActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> 
+                   
+                 <activity
+            android:name="com.alobha.grocery.greatrightnowproduce.GreatRightNowProduceActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> 
+        
+            <activity
+            android:name="com.alobha.grocery.bestdeals.BestMeatDealsActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> 
+        
+             
+            <activity
+            android:name="com.alobha.grocery.reserve.delivery.ReserveDeliveryActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" >
+        </activity> 
+    </application>
+
+</manifest>

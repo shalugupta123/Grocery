@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    xmlns:pax="http://schemas.android.com/apk/res/com.alobha.grocery"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:background="@color/black"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/join_more"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+        
+    </LinearLayout>
+    <RelativeLayout
+        
+        android:id="@+id/ll_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/white" 
+        >
+        <TextView
+            android:id="@+id/tv_Contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="@string/join_cont"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+        <ImageView 
+            android:id="@+id/imv_Arrow"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_grey"/>
+    </RelativeLayout>
+    <RelativeLayout
+        
+        android:id="@+id/rl_Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp" 
+        >
+        <TextView
+            android:id="@+id/tv_Logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/join_logout"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+        <ImageView 
+            android:id="@+id/imv_Arrow1"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_grey"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        
+        android:id="@+id/rl_YourOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp" 
+        >
+        <TextView
+            android:id="@+id/tv_Order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/join_order"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+        <ImageView 
+            android:id="@+id/imv_Arrow2"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_grey"/>
+    </RelativeLayout>
+    <RelativeLayout
+        
+        android:id="@+id/rl_Help"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp" 
+        >
+        <TextView
+            android:id="@+id/tv_Help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/join_help"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+        <ImageView 
+            android:id="@+id/imv_Arrow3"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_grey"/>
+    </RelativeLayout>
+    <RelativeLayout
+        
+        android:id="@+id/rl_About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp" 
+        >
+        <TextView
+            android:id="@+id/tv_About"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/join_about"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+        <ImageView 
+            android:id="@+id/imv_Arrow4"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_grey"/>
+    </RelativeLayout>
+    
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"> 
+       <com.alobha.grocery.tab.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            pax:tab_id="icontab"/>
+       </RelativeLayout>
+         <!-- <com.barcode.scanner.tab.Toolbar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            pax:tab_id="tab1" /> -->
+    
+
+</LinearLayout>

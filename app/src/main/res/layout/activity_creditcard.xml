@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg">
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/black"
+        >
+        <TextView 
+            android:id="@+id/tv_Creditback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/join_back"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/login_small_button_bg"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_creditcard"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+        <ImageView 
+            android:id="@+id/imv_Creditsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/save_btn"
+            />
+    </RelativeLayout>
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    
+        <TextView
+            android:id="@+id/tvEstimate"
+            android:layout_width="match_parent"
+            android:background="@color/dark_grayrect"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:padding="10dp"
+            android:text="@string/join_estimate"
+            android:textColor="@color/white" />
+         <TextView
+            android:id="@+id/tvEstimat"
+            android:layout_width="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:text="@string/join_plsentr"
+            android:textColor="@color/black" />
+        
+        <LinearLayout 
+            android:id="@+id/llfistname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+            android:paddingRight="15dp"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/tvFirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/join_firstname"
+                />
+            <EditText
+                android:id="@+id/et_FirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                android:background="@null"
+                android:hint="@string/join_requite" />
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/ll_LastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             android:paddingLeft="15dp"
+             android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/tvLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/join_lastname"
+                />
+            <EditText
+                android:id="@+id/et_LastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                
+                android:background="@null"
+                android:hint="@string/join_requite" />
+            
+
+</LinearLayout>
+
+        
+        
+        
+        
+        <RelativeLayout 
+            android:id="@+id/llfistname1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+            android:paddingRight="15dp"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/tvFirstName11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:layout_alignParentLeft="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/join_cardtyp"
+                />
+            <TextView
+                android:id="@+id/et_FirstName11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:layout_alignParentRight="true"
+                android:text="@string/join_amex" />
+            <ImageView 
+                android:id="@+id/imv_Amex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@string/app_name"
+                android:layout_marginRight="5dp"
+                android:padding="10dp"
+                android:src="@drawable/arrow_grey"/>
+        </RelativeLayout>>
+        <LinearLayout 
+            android:id="@+id/ll_LastName11w"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/tvLastNa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/join_carno"
+                />
+            <EditText
+                android:id="@+id/et_LastNameqq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                
+                android:background="@null"
+                android:hint="@string/join_requite" />
+            
+
+</LinearLayout>
+<LinearLayout 
+            android:id="@+id/lfistname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_marginTop="2dp"
+            android:paddingRight="15dp"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/tvirstName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/join_expire"
+                />
+            <EditText
+                android:id="@+id/etstreetName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                android:background="@null"
+                android:hint="@string/join_requite" />
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/ll_LastNme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             android:paddingLeft="15dp"
+             android:layout_marginTop="10dp"
+             android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+            android:paddingRight="15dp"
+            
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/tvLasme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/join_street"
+                />
+            <EditText
+                android:id="@+id/et_Lastme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                
+                android:background="@null"
+                android:hint="@string/join_requite" />
+            
+
+</LinearLayout>
+<LinearLayout 
+            android:id="@+id/llfistname2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/tvFirstame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/join_firstname"
+                />
+            <EditText
+                android:id="@+id/et_Firsame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                android:background="@null"
+                android:hint="@string/join_requite" />
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/ll_cityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             android:paddingLeft="15dp"
+             android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/tvcityName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/join_city"
+                />
+            <EditText
+                android:id="@+id/et_cityName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                
+                android:background="@null"
+                android:hint="@string/join_requite" />
+            
+
+</LinearLayout>
+<LinearLayout 
+            android:id="@+id/llstatename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+            android:paddingRight="15dp"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/tvstateName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/join_stat"
+                />
+            <EditText
+                android:id="@+id/et_statetName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                android:background="@null"
+                android:text="@string/join_newyrk" />
+        </LinearLayout>
+        <LinearLayout 
+            android:id="@+id/ll_zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             android:paddingLeft="15dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+            android:paddingRight="15dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/tvzip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/join_zip"
+                />
+            <EditText
+                android:id="@+id/et_zipName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingLeft="10dp"
+                android:maxLength="5"
+                android:background="@null"
+                android:text="@string/join_requite" />
+            
+
+</LinearLayout>
+<LinearLayout 
+            android:id="@+id/ll_terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+             android:layout_marginLeft="25dp"
+             android:layout_marginRight="25dp"
+            
+            >
+            <TextView
+                android:id="@+id/tvregis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/join_registering"
+                />
+            <TextView
+                android:id="@+id/tv_Creditterms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                
+                android:textColor="@color/tersofuse"
+                android:layout_marginLeft="5dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/join_termof_use"
+                />
+            
+
+</LinearLayout>
+<TextView
+                android:id="@+id/tv_Credittcpay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@color/bcolor"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/join_savpay"
+                />
+</LinearLayout>
+        
+  </ScrollView> 
+
+</LinearLayout>

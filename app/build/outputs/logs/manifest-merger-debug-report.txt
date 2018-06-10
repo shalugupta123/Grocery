@@ -1,0 +1,490 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:2:1-338:12
+INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:2:1-338:12
+INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:2:1-338:12
+INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:2:1-338:12
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-20.0.0.aar\faf4076574174c4c7cd16cf414b70aac\AndroidManifest.xml:15:1-18:12
+INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:2:1-338:12
+INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:2:1-338:12
+INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:2:1-338:12
+	package
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:4:5-45
+uses-sdk
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-20.0.0.aar\faf4076574174c4c7cd16cf414b70aac\AndroidManifest.xml:16:5-42
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-20.0.0.aar\faf4076574174c4c7cd16cf414b70aac\AndroidManifest.xml:16:5-42
+INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:8:5-10:41
+INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:9:9-34
+		INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:12:5-336:19
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-20.0.0.aar\faf4076574174c4c7cd16cf414b70aac\AndroidManifest.xml:17:5-19
+MERGED from [com.android.support:support-v4:20.0.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-20.0.0.aar\faf4076574174c4c7cd16cf414b70aac\AndroidManifest.xml:17:5-19
+	android:label
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:14:9-45
+	android:allowBackup
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:16:9-40
+activity#com.alobha.grocery.more.MoreActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:17:9-37:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:20:13-49
+	android:label
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:19:13-45
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:21:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:18:13-64
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:35:27-74
+activity#com.alobha.grocery.addtocart.CartScreensActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:44:9-49:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:47:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:48:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:46:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:45:13-76
+activity#com.alobha.grocery.checkoutstep.CheckoutStepThreeActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:52:9-57:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:55:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:56:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:54:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:53:13-85
+activity#com.alobha.grocery.checkoutstep.CheckOutStepTwoActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:59:10-64:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:62:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:63:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:61:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:60:13-83
+activity#com.alobha.grocery.addnewaddress.YesNoActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:67:9-72:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:70:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:71:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:69:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:68:13-74
+activity#com.alobha.grocery.addnewaddress.AddNewAddressActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:73:9-78:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:76:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:77:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:75:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:74:13-82
+activity#com.alobha.grocery.addtocart.CartEditDoneActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:79:9-84:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:82:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:83:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:81:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:80:13-77
+activity#com.alobha.grocery.checkoutstep.ContactgetHelpActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:85:9-90:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:88:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:89:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:87:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:86:13-82
+activity#com.alobha.grocery.checkoutstep.CheckOutStepOneActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:92:9-97:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:95:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:96:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:94:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:93:13-83
+activity#com.alobha.grocery.customermnt.CustomerAgrmentActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:98:9-103:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:101:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:102:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:100:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:99:13-82
+activity#com.alobha.grocery.helpdone.HelpDoneActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:110:9-115:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:113:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:114:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:112:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:111:13-72
+activity#com.alobha.grocery.checkoutstep.SubCreditActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:116:9-121:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:119:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:120:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:118:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:117:13-77
+activity#com.alobha.grocery.checkoutstep.WebViewStepActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:122:9-127:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:125:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:126:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:124:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:123:13-79
+activity#com.alobha.grocery.checkoutstep.CreditCardActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:128:9-133:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:131:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:132:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:130:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:129:13-78
+activity#com.alobha.grocery.checkoutstep.AddNewPaymentActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:134:9-139:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:137:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:138:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:136:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:135:13-81
+activity#com.alobha.grocery.zip.HomeCorportaDeliveryActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:142:9-147:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:145:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:146:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:144:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:143:13-79
+activity#com.alobha.grocery.faqsupport.FaqSupportActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:148:9-153:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:151:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:152:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:150:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:149:13-76
+activity#com.alobha.grocery.mobleapp.MobileAppActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:154:9-159:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:157:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:158:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:156:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:155:13-73
+activity#com.alobha.grocery.sendusamesage.SelectSubjectActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:160:9-165:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:163:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:164:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:162:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:161:13-82
+activity#com.alobha.grocery.mobleapp.ThanksActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:167:9-172:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:170:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:171:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:169:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:168:13-70
+activity#com.alobha.grocery.mobleapp.MobileAppUnderActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:173:10-178:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:176:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:177:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:175:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:174:13-78
+activity#com.alobha.grocery.sendusamesage.SendUsaMessageActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:179:9-184:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:182:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:183:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:181:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:180:13-83
+activity#com.alobha.grocery.auth.LoginActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:185:8-190:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:188:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:189:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:187:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:186:13-65
+activity#com.alobha.grocery.zip.CheckZipCodeActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:191:9-196:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:194:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:195:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:193:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:192:13-71
+activity#com.alobha.grocery.zip.ZipCodeNotifyActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:197:9-202:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:200:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:201:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:199:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:198:13-72
+activity#com.alobha.grocery.more.AboutActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:204:8-209:24
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:207:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:208:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:206:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:205:13-65
+activity#com.alobha.grocery.more.ContactUsActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:210:13-215:24
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:213:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:214:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:212:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:211:13-69
+activity#com.alobha.grocery.sendusamessage.SendUsaMessageActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:224:13-229:24
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:227:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:228:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:226:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:225:13-84
+activity#com.alobha.grocery.more.YourOrderActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:230:13-235:24
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:233:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:234:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:232:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:231:13-69
+activity#com.alobha.grocery.forgetpassword.ForgotPasswordActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:242:10-247:24
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:245:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:246:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:244:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:243:13-84
+activity#com.alobha.grocery.signup.SignupActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:248:9-253:24
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:251:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:252:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:250:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:249:13-68
+activity#com.alobha.grocery.dashboard.HomescreenActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:254:12-259:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:257:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:258:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:256:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:255:13-75
+activity#com.alobha.grocery.cateories.CategoryActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:260:11-265:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:263:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:264:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:262:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:261:13-73
+activity#com.alobha.grocery.cateories.SubcategoryActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:266:11-271:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:269:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:270:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:268:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:267:13-76
+activity#com.alobha.grocery.product.ProductActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:272:14-277:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:275:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:276:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:274:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:273:13-70
+activity#com.alobha.grocery.product.ProductOneActivtiy
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:279:17-284:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:282:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:283:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:281:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:280:13-73
+activity#com.alobha.grocery.product.ProductDetailActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:286:16-291:20
+	android:screenOrientation
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:289:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:290:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:288:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:287:13-76
+activity#com.alobha.grocery.projectdescription.ProjectDescriptionActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:293:20-297:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:296:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:295:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:294:13-92
+activity#com.alobha.grocery.addtocart.AddToCartActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:299:13-303:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:302:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:301:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:300:13-74
+activity#com.alobha.grocery.faverties.FavertiesActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:305:17-309:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:308:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:307:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:306:13-74
+activity#com.alobha.grocery.peresident.PresidentActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:312:18-316:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:315:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:314:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:313:13-75
+activity#com.alobha.grocery.greatrightnowproduce.GreatRightNowProduceActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:318:18-322:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:321:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:320:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:319:13-96
+activity#com.alobha.grocery.bestdeals.BestMeatDealsActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:324:13-328:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:327:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:326:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:325:13-78
+activity#com.alobha.grocery.reserve.delivery.ReserveDeliveryActivity
+ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:331:13-335:20
+	android:windowSoftInputMode
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:334:13-83
+	android:theme
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:333:13-66
+	android:name
+		ADDED from C:\Users\HP\Downloads\FirebaseAuth\Grocery\app\src\main\AndroidManifest.xml:332:13-87

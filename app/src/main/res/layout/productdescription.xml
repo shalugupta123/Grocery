@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/ract_header_border"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/imvBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+			android:layout_alignParentLeft="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/back_btn" />
+
+        <ImageView
+            android:id="@+id/imvGrocery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/active_star" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:weightSum="2" >
+
+        <!-- <LinearLayout
+            android:id="@+id/llImgdes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" > -->
+
+            <ImageView
+                android:id="@+id/imvMediction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               
+                android:layout_weight="1"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/product_img" />
+       <!--  </LinearLayout> -->
+
+        <!-- <LinearLayout
+            android:id="@+id/llProductdescr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             > -->
+
+            <WebView
+                android:id="@+id/imvProductDescriip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+             />
+               
+
+                  <!--   </LinearLayout> -->
+    </LinearLayout>
+
+</LinearLayout>

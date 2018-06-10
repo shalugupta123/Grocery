@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/ract_header_border"
+         >
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+           
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/home_btn" />
+
+        <TextView
+            android:id="@+id/tvGreatRightProduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/great"
+            android:layout_toRightOf="@+id/btnHome"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge">
+            
+        </TextView>
+    </RelativeLayout>
+
+   
+
+       <TextView
+            android:id="@+id/tvPeakSeason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/peak"
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/tvOurProducemanager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+          
+            android:text="@string/our" />
+   
+
+   <ListView
+                android:id="@+id/lvGreatRight"
+                android:layout_width="match_parent"
+                android:background="@color/Chachecoklor"
+                android:layout_height="wrap_content" >
+            </ListView>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:background="@color/black">
+        <ImageView 
+            android:id="@+id/imv_step2"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/step_buttan"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/imv_step2"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/join_deliverypass" />
+    </RelativeLayout>
+    <WebView 
+        android:id="@+id/webv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
+    
+
+</LinearLayout>

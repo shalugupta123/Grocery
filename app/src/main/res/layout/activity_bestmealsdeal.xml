@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/ract_header_border"
+         >
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/home_btn" />
+
+        <TextView
+            android:id="@+id/tvGreatRightProduce"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/btnHome"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:textStyle="bold"
+            android:text="@string/best"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+   
+
+        <TextView
+            android:id="@+id/tvPeakSeason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/featurd"
+            android:textColor="@color/orange"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+   <!-- 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" > -->
+
+        <TextView
+            android:id="@+id/tvOurProducemanager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/we" />
+    <!-- </LinearLayout>  -->
+
+   <ListView
+                android:id="@+id/lvGreatRight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ListView>
+</LinearLayout>

@@ -1,0 +1,258 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/llheader"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/black"
+        android:orientation="horizontal" >
+
+          <ImageView
+            android:id="@+id/ivlogologin"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/action_settings"
+            android:src="@drawable/edit_zip_button" />
+        
+        <ImageView
+            android:id="@+id/ivlogffologin"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/action_settings"
+            android:src="@drawable/active_star" />
+    </RelativeLayout>
+
+    <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:weightSum="3"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+             
+    <LinearLayout
+        android:id="@+id/product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/tvItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp" >
+
+       
+
+            <TextView
+                android:id="@+id/tvitem"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:text="@string/red_jacket_orchard"
+                android:textStyle="bold" >
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/productdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/product_detail_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tvProductDetail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:paddingLeft="10dp"
+                    android:text="@string/productdetail"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/ivOrangearrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:contentDescription="@string/action_settings"
+                    android:src="@drawable/orange_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivproductimg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="right"
+            android:contentDescription="@string/action_settings"
+            android:src="@drawable/product_img2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/product_detail_bg"
+        android:orientation="horizontal" >
+
+    <RatingBar 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="11dp"
+        android:layout_marginBottom="5dp"
+        style="?android:attr/ratingBarStyleSmall"
+        />    
+        <TextView
+            android:id="@+id/tvdoller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginTop="5dp"
+            android:paddingRight="10dp"
+            android:text="@string/join_twonin"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+      android:id="@+id/llQuantity"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:orientation="horizontal"
+     android:layout_margin="10dp"
+     android:layout_weight="1"
+     android:gravity="center"
+     android:background="@drawable/quantity_bg">
+        
+        
+        <ImageView
+            android:id="@+id/ivminusbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/action_settings"
+            android:padding="10dp"
+            android:src="@drawable/minus_btn" />
+        
+        <LinearLayout
+            android:id="@+id/llQuantity2"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="@drawable/quantity_bg"
+            android:orientation="vertical" >
+       
+        <TextView
+            android:id="@+id/tvQUANTITY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ouality"
+            android:textStyle="bold" >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/tvoOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:background="@drawable/quantity_bg_cart"
+            android:gravity="center"
+            android:text="@string/one"
+            android:textStyle="bold" >
+        </TextView>
+        
+        
+        
+        <TextView
+            android:id="@+id/Prices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/price_color"
+            android:text="@string/prices"
+            android:textStyle="bold" >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/tvdoller29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_tow"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+    
+        <ImageView
+            android:id="@+id/ivPlusbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/action_settings"
+            android:padding="10dp"
+            android:src="@drawable/plus_btnn" />
+    </LinearLayout>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/bcolor">
+    
+    <TextView
+            android:id="@+id/ivAddtocartbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/join_addcar"
+            
+            />
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ivAddtocartbtn"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/white_cart_icon"/>
+    </RelativeLayout>
+    
+    <ImageView
+            android:id="@+id/ivTruckimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/action_settings"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:src="@drawable/truck_img" />
+    
+       </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llLogo"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/black"
+         >
+
+      
+
+            <ImageView
+                android:id="@+id/imMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/more_btn" />
+
+            <TextView
+                android:id="@+id/tvYourOrder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:text="@string/join_president"
+                android:textColor="@color/white"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+        
+
+       
+
+    </LinearLayout>
+
+   <LinearLayout
+        android:id="@+id/llSearchHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#5f9636"
+            android:text="@string/join_president"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:text="@string/join_saveo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/join_saveon"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/join_wehavepart"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

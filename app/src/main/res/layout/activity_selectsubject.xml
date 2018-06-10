@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+    <RelativeLayout 
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="52dp" 
+        android:layout_marginBottom="10dp"
+        
+        android:background="@color/black"
+        >
+        <ImageView 
+            android:id="@+id/imv_sendrea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/send_us"/>
+        <TextView
+            android:id="@+id/tv_selctSub"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/imv_sendrea"
+            android:layout_height="wrap_content"
+            android:text="@string/join_select"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </RelativeLayout>
+    <ListView 
+        android:id="@+id/lvsel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+        
+   
+
+</LinearLayout>

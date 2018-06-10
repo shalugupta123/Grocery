@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:background="@color/black"
+        >
+        <ImageView 
+            android:id="@+id/addAddress"
+            android:contentDescription="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/buttan_addre"/>
+    </LinearLayout>
+    <TextView
+            android:id="@+id/tvEstimate"
+            android:layout_width="match_parent"
+            android:background="@color/dark_grayrect"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:padding="10dp"
+            android:text="@string/join_estimate"
+            android:textColor="@color/white" />
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp" >
+    <TextView
+        android:id="@+id/tvt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bcolor"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        
+        android:text="@string/join_yes"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+    <CheckBox 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chbox"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        />
+    <!-- <TextView android:layout_width="match_parent"
+        android:height="2dp"
+        android:text="@string/t"/> -->
+
+</RelativeLayout>
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp" >
+    <TextView
+        android:id="@+id/tvtno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bcolor"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        
+        android:text="@string/join_no"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+    <CheckBox 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chboxcor"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        />
+    <!-- <TextView android:layout_width="match_parent"
+        android:height="2dp"
+        android:text="@string/t"/> -->
+
+</RelativeLayout>
+    
+
+</LinearLayout>

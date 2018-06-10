@@ -1,0 +1,40 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+</LinearLayout>
+ -->
+ <RelativeLayout
+     android:id="@+id/ll_datahelp1q"
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="15dp"
+     android:layout_marginRight="15dp"
+     android:background="@color/white">
+     <TextView
+         android:id="@+id/tv_privaa"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/join_priva"
+         android:padding="11dp"
+         android:textStyle="bold"
+         android:textColor="@color/bcolor"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+     <ImageView 
+         android:id="@+id/imv_orangeArroo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:src="@drawable/orange_arrow"
+         android:layout_margin="10dp"
+         android:contentDescription="@string/app_name"/>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="2dp"
+         android:background="@color/txtcolor"/>
+ </RelativeLayout>

@@ -1,0 +1,46 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+</LinearLayout>
+ -->
+ <RelativeLayout
+     android:id="@+id/datamobileapp"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginLeft="15dp"
+      android:layout_marginRight="15dp"
+      android:background="@color/white"
+      >
+     <TextView
+         android:id="@+id/tv_data"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/join_mobileapp"
+         android:padding="10dp"
+         android:textStyle="bold"
+         android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textColor="@color/bcolor"
+          android:layout_alignParentLeft="true"
+         />
+     <ImageView
+         android:id="@+id/imv_arro_icon"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+        
+         android:padding="13dp"
+         android:contentDescription="@string/app_name"
+         android:src="@drawable/orange_arrow"
+         />
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="2dp"
+         android:background="@color/txtcolor"
+         />
+ </RelativeLayout>

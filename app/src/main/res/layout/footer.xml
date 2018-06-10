@@ -1,0 +1,61 @@
+
+    <!-- <merge>
+    <ImageView
+        android:id="@+id/imv_Home"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/home"/>
+    
+    <ImageView
+        android:id="@+id/imv_Spoon"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/spoon"/>
+    <ImageView
+        android:id="@+id/imv_Homeicon"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/home_icon"/>
+    <ImageView
+        android:id="@+id/imv_Truck"
+ android:layout_gravity="center"
+ android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/truck_icon"/>
+    <ImageView
+        android:id="@+id/imv_icon"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/icon"/>
+    </merge> -->
+    <merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/tabHelp"
+        android:layout_height="64dip" 
+        android:layout_width="64dip"	 
+        android:text="Home" 
+        android:textSize="10dip" 
+		android:textStyle="bold" 
+		android:textColor="@color/black" 
+        android:clickable="true"
+        android:focusable="true" 
+        android:background="@drawable/icon" 
+        android:drawableTop="@drawable/icon"
+        android:gravity="center"
+        android:layout_weight="1"/>         
+	 	                
+</merge>

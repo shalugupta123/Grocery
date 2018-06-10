@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    <RelativeLayout
+        android:id="@+id/orderee"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+         android:orientation="horizontal"
+         android:background="@color/black"
+        >
+        <ImageView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/more_btn"
+            />
+        <TextView
+            android:id="@+id/order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/join_order"
+            android:layout_centerInParent="true"           
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_donth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/join_donth"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/join_ordersss"/>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp">
+<ImageView 
+    android:id="@+id/imv_egg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerInParent="true"
+    android:contentDescription="@string/app_name"
+    android:src="@drawable/empty_cart_img"
+    android:background="@null"/>
+</RelativeLayout>
+</LinearLayout>

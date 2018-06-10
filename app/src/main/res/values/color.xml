@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="dark_grayrect">#3D3D3E</color>
+	<color name="fruit_cart">#F3EEE6</color>
+	<color name="light_gray">#E9EAEC</color>
+    <color name="white">#ffffff</color>
+    <color name="tersofuse">#0095F9</color>
+    <color name="ok_bg">#C55E61</color>
+    <color name="conti_gray">#767676</color>
+    <color name="black">#000000</color>
+    <color name="txtcolor">#F3EEE7</color>
+    <color name="transparent">#00000000</color>
+    <color name="lightheaderslaty">#f8f8f8</color>
+    <color name="lightgraycameradialog">#f9f9f9</color>
+    <color name="navbar">#40B0EE</color>
+    <color name="yellow">#FFF000</color>
+    <color name="send_sms">#E8BBBB</color>
+    <color name="sky">#248BFF</color>
+    <color name="conactcolor">#D77777</color>
+    <color name="skly">#7FBAF4</color>
+    <color name="est_color">#D2D2D2</color>
+    <color name="texttom">#FF7F55</color>
+    <color name="price_color">#D5D5D5</color>
+    <color name="ocolor">#B86060</color>
+    <color name="fruits_red">#FF3959</color>
+    <color name="bcolor">#FFA74F</color>
+    <color name="bbcolor">#D8D2CC</color>
+    <color name="ligtgray">#E4E5E5</color>
+    <color name="palmonn">#75B9FC</color>
+    <color name="red">#F65E4E</color>
+    <color name="skylight">#1e90c8</color>
+    <color name="graylight">#AFAFAF</color>
+    <color name="green">#00ff00</color>
+    <color name="blacklight">#404040</color>
+    <color name="homesubmittab">#2FABE9</color>
+    <color name="gold">#FFD700</color>
+    <color name="alertcolor">#DFEFF5</color>
+    <color name="greenlight">#00B386</color>
+    <color name="cream">#D3D3D3</color>
+    <color name="blueneavy">#000080</color>
+    <color name="lavender">#E6E6FA</color>
+    <color name="gray">#F2F2F2</color>
+    <color name="blue">#2E76F2</color>
+     <color name="blue_btn">#137CC5</color>
+    
+    <color name="bluelight">#4E78A0</color>
+    <color name="grey">#FF909090</color>
+    <color name="greylight">#BABABA</color>
+    <color name="grey_verylight">#C9C9C9</color>
+
+  <!--   <drawable name="transparent">#00000000</drawable> -->
+
+    <color name="transparent_black">#805F5D5C</color>
+    <color name="transparent_blue">#806A6F77</color>
+    <color name="twitter_blue">#29A3DB</color>
+    <color name="page_background_color">#EDEDED</color>
+    <color name="Square_block_color">#E5965A</color> <!-- This is orange color code -->
+
+    <color name="details_background_gradient_color">#EBEBEB</color>
+    <color name="light_black">#282826</color>
+    <color name="orange">#F48F22</color>
+    <color name="dark_blue">#131654</color>
+    <!-- notepad colors -->
+    <color name="dark_orange">#BC5C07</color>
+    
+     <color name="gray_list_background">#353534</color>
+       <color name="gray_list_background_selector">#000000</color>
+       <color name="browse1">#FFAA54</color>
+       <color name="dollar_c">#C31F1F</color>
+       
+             <color name="Chachecoklor">#0000</color>
+       
+             
+             
+             
+             
+             
+             
+             
+             
+    
+	<color name="creame_white">#F3EEE6</color>
+	<color name="background">#3F3F40</color>
+	<color name="white_background">#F1EEE5</color>
+	<color name="step">#C4CBC4</color>
+	<color name="reddark">#B91B35</color>
+	<color name="colom">#F3EEC0</color>
+	<color name="header">#0094D1</color>
+	<color name="darkwhite">#E7E7E9</color>
+	
+	<color name="yellowline">#FF9F00</color>
+	
+	
+	<color name="fruit_cat">#F3EEE6</color>
+	<color name="gray_header">#E9E9EC</color>
+    
+    <!--  eepak Kumar Singh: #2d2d2c
+[17:16:36] Deepak Kumar Singh: for search
+[17:17:23] Deepak Kumar Singh: #353534
+[17:17:29] Deepak Kumar Singh: list bg
+     -->
+
+</resources>

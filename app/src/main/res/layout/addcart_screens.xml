@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:pax="http://schemas.android.com/apk/res/com.alobha.grocery"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/black" >
+
+        <TextView
+            android:id="@+id/tvCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/join_cart"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/imv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"  
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/edit_square_btn" />
+    </RelativeLayout>
+
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/llEstimate"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/gray_ract_shape"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tvEstimate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_estimate"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llGrocerHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/white_border_yello_bg_ract" >
+
+        <ImageView
+            android:id="@+id/imvGrocerHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/green_leaf" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCatogerbg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/fruit_cart"
+         >
+
+        <TextView
+            android:id="@+id/tvFrusitHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="@string/join_fruit"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/lllistbg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="@drawable/white_border_yello_bg_ract"
+        android:padding="5dp"
+        
+        >
+
+        <TextView
+            android:id="@+id/tvquntBg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/quantity_bg_cart"
+            android:gravity="center"
+            
+            android:text="@string/join_one" />
+
+        <TextView
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/join_red"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/imvarro"
+            style="?android:attr/textAppearanceSmall"
+            />
+
+        <ImageView
+            android:id="@+id/imvarro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/orange_arrow" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llestimatesubtotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/light_ractangle" >
+
+        <TextView
+            android:id="@+id/tvSubtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/join_subtotal" />
+
+        <TextView
+            android:id="@+id/tvCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="@string/join_cost"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llPrmotionalDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        >
+
+        <TextView
+            android:id="@+id/tvPrcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_promo" >
+        </TextView>
+        <EditText
+            android:layout_gravity="right|center"
+            android:id="@+id/et_promotional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:paddingRight="10dp"
+            android:background="@drawable/active_star"
+            android:inputType="text" 
+            />
+         </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llPcode1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvsubto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/join_estsub" />
+
+            <TextView
+                android:id="@+id/tvCosta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/join_cost" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPcode11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvsubt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/join_total" />
+
+            <TextView
+                android:id="@+id/tvCostaa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/join_cost2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPcode11a"
+            android:layout_width="match_parent"
+            android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvsubta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/join_Delivercha" />
+
+            <TextView
+                android:id="@+id/tvCostaaa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/join_cost2" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llestimate2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/gray_ract_shape"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/tvestimate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/join_estimated"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvcosteee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:text="@string/join_cost"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/tvTaxable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_taxitem"
+            style="?android:attr/textAppearanceSmall" />
+        <TextView
+            android:id="@+id/tvSpecial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_specialpri"
+            android:layout_marginLeft="10dp"
+            style="?android:attr/textAppearanceSmall"/>
+
+      
+        <TextView
+            android:id="@+id/tvDeposit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/join_Delivercha"
+           style="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="15dp" >
+
+              <TextView
+                  android:id="@+id/textView19"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginLeft="10dp"
+                  android:text="@string/findoutmore"
+                  android:textColor="@color/black"
+                  style="?android:attr/textAppearanceSmall" />
+
+              <ImageView
+                  android:id="@+id/imageView4"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="20dp"
+                  android:contentDescription="@string/app_name"
+                  android:src="@drawable/infomation_icon" />
+
+          </RelativeLayout>
+
+          <ImageView 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:contentDescription="@string/app_name"
+              android:layout_gravity="center"
+              android:layout_marginTop="20dp"
+              android:src="@drawable/truck_img2"/>
+
+    <LinearLayout
+        android:id="@+id/continew"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/conti_gray"
+        android:gravity="center"
+        android:padding="20dp" >
+
+        <ImageView
+            android:id="@+id/checktoconti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/continue_to_checkout_btn" />
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>
+ <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <com.alobha.grocery.tab.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            pax:tab_id="carttab" />
+    
+    </RelativeLayout>
+ 
+    
+ 
+</LinearLayout>
+

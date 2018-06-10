@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" > -->
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/RelproductListRow"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/ligtgray"
+        android:padding="5dp"
+        android:layout_marginBottom="2dp"
+    >
+    <ImageView
+            android:id="@+id/ivItem"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@string/action_settings"
+            android:src="@drawable/fruit_img" />
+        
+          <TextView
+            android:id="@+id/tvIteminfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_toRightOf="@+id/ivItem"
+            android:layout_gravity="center"
+            android:text="@string/join_fruit"
+            android:textStyle="bold" />
+        
+
+        
+
+      
+        <ImageView
+            android:id="@+id/ivOrangearrow"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/action_settings"
+            android:src="@drawable/orange_arrow" />
+    </RelativeLayout>
+
+<!-- </LinearLayout> -->
+
+
+
+
+          
+        

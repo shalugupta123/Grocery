@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/home_img1" />
+
+    
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rahdhey_tero_hai_pyara" />
+
+        <TextView
+            android:id="@+id/textfView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rahdhey_tero_hai_pyara" />
+        
+          <RatingBar 
+              android:id="@+id/rb_ratss"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:numStars="5"
+              style="?android:attr/ratingBarStyleSmall"
+              
+              />
+    
+        
+        
+</LinearLayout>
+   <ImageView
+            android:id="@+id/ivOrangeArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/orange_arrow" />
+
+        <ImageView
+            android:id="@+id/ivVertDevider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/vert_divider" />
+
+        <ImageView
+            android:id="@+id/ivGreenCartIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/green_cart_icon" />
+</LinearLayout>
